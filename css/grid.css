@@ -39,6 +39,14 @@ body, p, h1, h2, h3, h4, h5 {
    margin-bottom:10px;
  }
 
+ .box2 {
+   background-color: rgb(6, 100, 112);
+   color: #fff;
+   border-radius: 5px;
+   padding: 20px;
+   text-align: center;
+ }
+
 /* ---Mobile Library Grid Styles--- */
 
 /* Note if you are using a grid size of 1920, you need to change the value of 1200px to 1920px on line 50 and 57 */
@@ -92,6 +100,8 @@ body, p, h1, h2, h3, h4, h5 {
       padding-left: 16px;
       padding-right: 16px;
    }
+
+   #menu {display: none;}
 
    .m-col-auto {grid-column: auto;}
    .m-col-span-1	{grid-column: span 1 / span 1;}
@@ -151,6 +161,8 @@ body, p, h1, h2, h3, h4, h5 {
       padding-left: 15px;
       padding-right: 15px;
    }
+
+   #menu {display: none;}
 
    .l-col-auto {grid-column: auto;}
    .l-col-span-1	{grid-column: span 1 / span 1;}
