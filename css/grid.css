@@ -47,6 +47,18 @@ body, p, h1, h2, h3, h4, h5 {
    text-align: center;
  }
 
+ .img-box {
+   background-color: #7d7d7d;
+   color: #fff;
+   border-radius: 5px;
+   padding: 20px;
+   text-align: center;
+   height: 350px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+ }
+
 /* ---Mobile Library Grid Styles--- */
 
 /* Note if you are using a grid size of 1920, you need to change the value of 1200px to 1920px on line 50 and 57 */
@@ -92,6 +104,18 @@ body, p, h1, h2, h3, h4, h5 {
 /* ---Tablet Library Grid Styles--- */
 
 @media screen and (min-width: 768px) { 
+
+   .img-box {
+      background-color: #7d7d7d;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      height: 450px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
    
    .grid-con { 
       display: grid; 
@@ -102,6 +126,8 @@ body, p, h1, h2, h3, h4, h5 {
    }
 
    #menu {display: none;}
+
+   #social-media-icons-top {display: none;}
 
    .m-col-auto {grid-column: auto;}
    .m-col-span-1	{grid-column: span 1 / span 1;}
@@ -154,6 +180,18 @@ body, p, h1, h2, h3, h4, h5 {
 
 @media screen and (min-width: 1200px) { 
 
+   .img-box {
+      background-color: #7d7d7d;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      height: 550px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -163,6 +201,8 @@ body, p, h1, h2, h3, h4, h5 {
    }
 
    #menu {display: none;}
+
+   #social-media-icons-top {display: block;}
 
    .l-col-auto {grid-column: auto;}
    .l-col-span-1	{grid-column: span 1 / span 1;}
