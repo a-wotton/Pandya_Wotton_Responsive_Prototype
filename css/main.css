@@ -11,3 +11,14 @@
     grid-template-columns: 1/-1;
 }
 
+#hero-image {
+    grid-column: 1/-1;
+    grid-row: 1/1;
+}
+
+@media screen and (max-width:768px) {
+    #nav {display: none;}
+    #social-media-icons-top {display: none;}
+}
+
+
