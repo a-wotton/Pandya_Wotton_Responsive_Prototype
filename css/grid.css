@@ -21,6 +21,9 @@ html {
 body, p, h1, h2, h3, h4, h5 {
    margin: 0px; 
    padding: 0px;
+   font-size: 18px;
+   font-weight: lighter;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ---Utility Classes--- */
@@ -54,9 +57,6 @@ body, p, h1, h2, h3, h4, h5 {
    padding: 20px;
    text-align: center;
    height: 350px;
-   align-items: center;
-   justify-content: center;
-   display: flex;
  }
 
 /* ---Mobile Library Grid Styles--- */
@@ -112,9 +112,6 @@ body, p, h1, h2, h3, h4, h5 {
       padding: 20px;
       text-align: center;
       height: 450px;
-      align-items: center;
-      justify-content: center;
-      display: flex;
     }
    
    .grid-con { 
@@ -187,9 +184,6 @@ body, p, h1, h2, h3, h4, h5 {
       padding: 20px;
       text-align: center;
       height: 550px;
-      align-items: center;
-      justify-content: center;
-      display: flex;
     }
 
    .grid-con { 
