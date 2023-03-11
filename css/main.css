@@ -13,12 +13,41 @@
 
 #hero-image {
     grid-column: 1/-1;
+}
+
+#hero-image p {
+    grid-column: 1/-1;
+}
+
+#learn-more {
+    align-self: end;
+}
+
+#about-us, #our-beer {
+    margin-top: 40px;
+}
+
+#about-us div, #our-beer div {
+    margin-top: 40px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-beer div:first-of-type {
     grid-row: 1/1;
+    margin-bottom: 40px;
+}
+
+#our-beer h3 {
+    grid-row: 2/2;
 }
 
 @media screen and (max-width:768px) {
     #nav {display: none;}
     #social-media-icons-top {display: none;}
+    #our-beer div:first-of-type {width: 75%; justify-self: center;}
 }
 
 
