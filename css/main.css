@@ -44,6 +44,21 @@
     grid-row: 2/2;
 }
 
+#main-footer {
+    margin: 0 auto;
+    grid-column: 1/-1;
+}
+
+
+#footer-nav {
+    grid-template-columns: 1/-1;
+}
+
+#lower-nav {
+    grid-template-columns: 1/-1;
+}
+
+
 @media screen and (max-width:768px) {
     #nav {display: none;}
     #social-media-icons-top {display: none;}
