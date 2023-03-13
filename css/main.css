@@ -16,7 +16,7 @@
 }
 
 #hero-image p {
-    grid-column: 1/-1;
+    align-self: center;
 }
 
 #learn-more {
@@ -49,15 +49,17 @@
     grid-column: 1/-1;
 }
 
-
-#footer-nav {
-    grid-template-columns: 1/-1;
-}
-
 #lower-nav {
-    grid-template-columns: 1/-1;
+    grid-row: 1/1;
 }
 
+#footer-logo {
+    grid-row: 2/2;
+}
+
+#social-media-icons-bottom {
+    margin-top: 20px;
+}
 
 @media screen and (max-width:768px) {
     #nav {display: none;}
