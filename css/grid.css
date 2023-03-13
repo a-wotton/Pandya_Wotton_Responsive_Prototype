@@ -198,6 +198,8 @@ body, p, h1, h2, h3, h4, h5 {
 
    #social-media-icons-top {display: block;}
 
+   #social-media-icons-bottom {display: none;}
+
    .l-col-auto {grid-column: auto;}
    .l-col-span-1	{grid-column: span 1 / span 1;}
    .l-col-span-2	{grid-column: span 2 / span 2;}
